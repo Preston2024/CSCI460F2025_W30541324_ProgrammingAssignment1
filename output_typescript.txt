@@ -1,0 +1,48 @@
+Script started on 2025-10-14 21:21:29-04:00 [TERM="xterm-256color" TTY="/dev/pts/5" COLUMNS="120" LINES="30"]
+[?2004h]0;minceyp2@thur114-hp1: ~/CSCI460F2025_W30541324_ProgrammingAssignment1[01;32mminceyp2@thur114-hp1[00m:[01;34m~/CSCI460F2025_W30541324_ProgrammingAssignment1[00m$ nano CSCI460_W30541324_ProgrammingAssignment1cd CSCI460-ProgrammingAssignments-Preston2024nano CSCI460_W30541324_ProgrammingAssignment1[Knano CSCI460_W30541324_ProgrammingAssignment1cd CSCI460-ProgrammingAssignments-Preston2024PA1[Knano CSCI460_W30541324_ProgrammingAssignment1cd CSCI460PA1[K-ProgrammingAssignments-Preston2024nano CSCI460_W30541324_ProgrammingAssignment1[Kpython3 SC[K[KCSCI460_P[KW30541324_Prograa[KmmingAssignment1.p y
+[?2004lTraceback (most recent call last):
+  File "/home/acc.minceyp2/CSCI460F2025_W30541324_ProgrammingAssignment1/CSCI460_W30541324_ProgrammingAssignment1.py", line 17, in <module>
+    df = pd.read_csv('bank-full.csv', sep=';')
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/pandas/io/parsers/readers.py", line 948, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/pandas/io/parsers/readers.py", line 611, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/pandas/io/parsers/readers.py", line 1448, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/pandas/io/parsers/readers.py", line 1705, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/pandas/io/common.py", line 863, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'bank-full.csv'
+[?2004h]0;minceyp2@thur114-hp1: ~/CSCI460F2025_W30541324_ProgrammingAssignment1[01;32mminceyp2@thur114-hp1[00m:[01;34m~/CSCI460F2025_W30541324_ProgrammingAssignment1[00m$ ls
+[?2004lCSCI460_W30541324_ProgrammingAssignment1.py  output_typescript.txt  README.md
+[?2004h]0;minceyp2@thur114-hp1: ~/CSCI460F2025_W30541324_ProgrammingAssignment1[01;32mminceyp2@thur114-hp1[00m:[01;34m~/CSCI460F2025_W30541324_ProgrammingAssignment1[00m$ lspython3 CSCI460_W30541324_ProgrammingAssignment1.py[A]0;minceyp2@thur114-hp1: ~/CSCI460F2025_W30541324_ProgrammingAssignment1[01;32mminceyp2@thur114-hp1[00m:[01;34m~/CSCI460F2025_W30541324_ProgrammingAssignment1[00m$ [5Pnano CSCI460_W30541324_ProgrammingAssignment1
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd CSCI460-ProgrammingAssignments-Preston2024PA1[Knano CSCI460_W30541324_ProgrammingAssignment1git clone https://github.com/Preston2024/CSCI460F2025_W30541324_ProgrammingAssignment1.git[A]0;minceyp2@thur114-hp1: ~/CSCI460F2025_W30541324_ProgrammingAssignment1[01;32mminceyp2@thur114-hp1[00m:[01;34m~/CSCI460F2025_W30541324_ProgrammingAssignment1[00m$ bank-full.csv[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcd CSCI460F2025_W30541324_ProgrammingAssignment1/rmdir /s CSCI460F25_W30541324_ProgrammingAssignment1/[A]0;minceyp2@thur114-hp1: ~/CSCI460F2025_W30541324_ProgrammingAssignment1[01;32mminceyp2@thur114-hp1[00m:[01;34m~/CSCI460F2025_W30541324_ProgrammingAssignment1[00m$ [1Pcd CSCI460F2025_W30541324_ProgrammingAssignment1/
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kbank-full.csvgit clone https://github.com/Preston2024/CSCI460F2025_W30541324_ProgrammingAssignment1.git[A]0;minceyp2@thur114-hp1: ~/CSCI460F2025_W30541324_ProgrammingAssignment1[01;32mminceyp2@thur114-hp1[00m:[01;34m~/CSCI460F2025_W30541324_ProgrammingAssignment1[00m$ [5Pnano CSCI460_W30541324_ProgrammingAssignment1
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd CSCI460PA1[K-ProgrammingAssignments-Preston2024nano CSCI460_W30541324_ProgrammingAssignment1python3 CSCI460_W30541324_ProgrammingAssignment1.py[A]0;minceyp2@thur114-hp1: ~/CSCI460F2025_W30541324_ProgrammingAssignment1[01;32mminceyp2@thur114-hp1[00m:[01;34m~/CSCI460F2025_W30541324_ProgrammingAssignment1[00m$ ls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kcp /path/to/bank-full.csv .
+[?2004lcp: cannot stat '/path/to/bank-full.csv': No such file or directory
+[?2004h]0;minceyp2@thur114-hp1: ~/CSCI460F2025_W30541324_ProgrammingAssignment1[01;32mminceyp2@thur114-hp1[00m:[01;34m~/CSCI460F2025_W30541324_ProgrammingAssignment1[00m$ mv ~/Downloads/bank-full.csv .
+[?2004lmv: cannot stat '/home/acc.minceyp2/Downloads/bank-full.csv': No such file or directory
+[?2004h]0;minceyp2@thur114-hp1: ~/CSCI460F2025_W30541324_ProgrammingAssignment1[01;32mminceyp2@thur114-hp1[00m:[01;34m~/CSCI460F2025_W30541324_ProgrammingAssignment1[00m$ git commit -am "No bank-full.csv file"
+[?2004l[main 6a73d84] No bank-full.csv file
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[?2004h]0;minceyp2@thur114-hp1: ~/CSCI460F2025_W30541324_ProgrammingAssignment1[01;32mminceyp2@thur114-hp1[00m:[01;34m~/CSCI460F2025_W30541324_ProgrammingAssignment1[00m$ git push
+[?2004lUsername for 'https://github.com': Preston2024
+Password for 'https://Preston2024@github.com': 
+Enumerating objects: 5, done.
+Counting objects:  20% (1/5)Counting objects:  40% (2/5)Counting objects:  60% (3/5)Counting objects:  80% (4/5)Counting objects: 100% (5/5)Counting objects: 100% (5/5), done.
+Delta compression using up to 20 threads
+Compressing objects: 100% (1/1)Compressing objects: 100% (1/1), done.
+Writing objects:  33% (1/3)Writing objects:  66% (2/3)Writing objects: 100% (3/3)Writing objects: 100% (3/3), 290 bytes | 145.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Preston2024/CSCI460F2025_W30541324_ProgrammingAssignment1.git
+   9edd17c..6a73d84  main -> main
+[?2004h]0;minceyp2@thur114-hp1: ~/CSCI460F2025_W30541324_ProgrammingAssignment1[01;32mminceyp2@thur114-hp1[00m:[01;34m~
