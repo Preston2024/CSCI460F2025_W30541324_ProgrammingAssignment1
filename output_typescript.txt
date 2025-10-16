@@ -1,0 +1,142 @@
+Script started on 2025-10-16 09:31:01-04:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+[?2004h]0;minceyp2@thur114-hp1: ~/CSCI460F2025_W30541324_ProgrammingAssignment1[01;32mminceyp2@thur114-hp1[00m:[01;34m~/CSCI460F2025_W30541324_ProgrammingAssignment1[00m$ python CSCI460_W30541324_ProgrammingAssignment1.py 
+[?2004lCommand 'python' not found, did you mean:
+  command 'python3' from deb python3
+  command 'python' from deb python-is-python3
+[?2004h]0;minceyp2@thur114-hp1: ~/CSCI460F2025_W30541324_ProgrammingAssignment1[01;32mminceyp2@thur114-hp1[00m:[01;34m~/CSCI460F2025_W30541324_ProgrammingAssignment1[00m$ python CSCI460_W30541324_ProgrammingAssignment1.py [A]0;minceyp2@thur114-hp1: ~/CSCI460F2025_W30541324_ProgrammingAssignment1[01;32mminceyp2@thur114-hp1[00m:[01;34m~/CSCI460F2025_W30541324_ProgrammingAssignment1[00m$ nano temp.js[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7Pode ano temp.jspython CSCI460_W30541324_ProgrammingAssignment1.py [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C3 CSCI460_W30541324_ProgrammingAssignment1.py [A]0;minceyp2@thur114-hp1: ~/CSCI460F2025_W30541324_ProgrammingAssignment1[01;32mminceyp2@thur114-hp1[00m:[01;34m~/CSCI460F2025_W30541324_ProgrammingAssignment1[00m$ [C[C[C[C[C[C[C
+
+[?2004lTrain Fraction,Trial,Accuracy,F1-Score
+0.1,1,0.8358,0.8486
+0.1,2,0.8430,0.8548
+0.1,3,0.8507,0.8577
+0.1,4,0.8410,0.8543
+0.1,5,0.8407,0.8519
+0.1,6,0.8401,0.8509
+0.1,7,0.8422,0.8544
+0.1,8,0.8486,0.8580
+0.1,9,0.8422,0.8533
+0.1,10,0.8469,0.8542
+0.1,Mean,0.8431,0.8538
+0.1,Std,0.0042,0.0027
+0.2,1,0.8524,0.8604
+0.2,2,0.8452,0.8538
+0.2,3,0.8385,0.8502
+0.2,4,0.8482,0.8570
+0.2,5,0.8456,0.8554
+0.2,6,0.8487,0.8579
+0.2,7,0.8455,0.8544
+0.2,8,0.8437,0.8553
+0.2,9,0.8464,0.8555
+0.2,10,0.8390,0.8496
+0.2,Mean,0.8453,0.8550
+0.2,Std,0.0040,0.0031
+0.3,1,0.8535,0.8612
+0.3,2,0.8389,0.8498
+0.3,3,0.8475,0.8568
+0.3,4,0.8539,0.8623
+0.3,5,0.8412,0.8536
+0.3,6,0.8415,0.8527
+0.3,7,0.8466,0.8558
+0.3,8,0.8475,0.8573
+0.3,9,0.8507,0.8596
+0.3,10,0.8435,0.8539
+0.3,Mean,0.8465,0.8563
+0.3,Std,0.0049,0.0038
+0.4,1,0.8521,0.8604
+0.4,2,0.8487,0.8582
+0.4,3,0.8471,0.8566
+0.4,4,0.8582,0.8657
+0.4,5,0.8504,0.8586
+0.4,6,0.8454,0.8548
+0.4,7,0.8422,0.8524
+0.4,8,0.8521,0.8608
+0.4,9,0.8451,0.8543
+0.4,10,0.8474,0.8563
+0.4,Mean,0.8489,0.8578
+0.4,Std,0.0043,0.0037
+0.5,1,0.8554,0.8628
+0.5,2,0.8446,0.8542
+0.5,3,0.8457,0.8548
+0.5,4,0.8510,0.8594
+0.5,5,0.8392,0.8503
+0.5,6,0.8489,0.8578
+0.5,7,0.8488,0.8584
+0.5,8,0.8441,0.8544
+0.5,9,0.8512,0.8591
+0.5,10,0.8423,0.8515
+0.5,Mean,0.8471,0.8563
+0.5,Std,0.0046,0.0037
+0.6,1,0.8516,0.8602
+0.6,2,0.8452,0.8550
+0.6,3,0.8484,0.8580
+0.6,4,0.8553,0.8635
+0.6,5,0.8490,0.8581
+0.6,6,0.8440,0.8541
+0.6,7,0.8480,0.8566
+0.6,8,0.8429,0.8524
+0.6,9,0.8495,0.8588
+0.6,10,0.8528,0.8605
+0.6,Mean,0.8487,0.8577
+0.6,Std,0.0037,0.0031
+0.7,1,0.8492,0.8581
+0.7,2,0.8432,0.8531
+0.7,3,0.8439,0.8537
+0.7,4,0.8378,0.8495
+0.7,5,0.8462,0.8565
+0.7,6,0.8440,0.8539
+0.7,7,0.8427,0.8528
+0.7,8,0.8445,0.8545
+0.7,9,0.8409,0.8518
+0.7,10,0.8464,0.8562
+0.7,Mean,0.8439,0.8540
+0.7,Std,0.0030,0.0023
+0.8,1,0.8502,0.8588
+0.8,2,0.8484,0.8570
+0.8,3,0.8494,0.8593
+0.8,4,0.8425,0.8540
+0.8,5,0.8465,0.8577
+0.8,6,0.8424,0.8522
+0.8,7,0.8413,0.8516
+0.8,8,0.8410,0.8510
+0.8,9,0.8436,0.8532
+0.8,10,0.8529,0.8616
+0.8,Mean,0.8458,0.8556
+0.8,Std,0.0040,0.0035
+0.9,1,0.8445,0.8544
+0.9,2,0.8490,0.8572
+0.9,3,0.8479,0.8571
+0.9,4,0.8483,0.8574
+0.9,5,0.8412,0.8515
+0.9,6,0.8399,0.8498
+0.9,7,0.8479,0.8576
+0.9,8,0.8443,0.8555
+0.9,9,0.8505,0.8579
+0.9,10,0.8452,0.8534
+0.9,Mean,0.8459,0.8552
+0.9,Std,0.0033,0.0027
+[?2004h]0;minceyp2@thur114-hp1: ~/CSCI460F2025_W30541324_ProgrammingAssignment1[01;32mminceyp2@thur114-hp1[00m:[01;34m~/CSCI460F2025_W30541324_ProgrammingAssignment1[00m$ exit[K[K[K[Kgit add [K[K[K[K[K[K[K[Kls
+[?2004l[0m[01;34mbank-additional[0m      bank-full.csv       [01;32mbank.zip[0m                                     output_typescript.txt
+[01;32mbank-additional.zip[0m  [01;31mbank+marketing.zip[0m  CSCI460_W30541324_ProgrammingAssignment1.py  README.md
+bank.csv             bank-names.txt      [01;34m__MACOSX[0m
+[?2004h]0;minceyp2@thur114-hp1: ~/CSCI460F2025_W30541324_ProgrammingAssignment1[01;32mminceyp2@thur114-hp1[00m:[01;34m~/CSCI460F2025_W30541324_ProgrammingAssignment1[00m$ git add bank0full[K[K[K[K[K-full.csv
+[?2004l[?2004h]0;minceyp2@thur114-hp1: ~/CSCI460F2025_W30541324_ProgrammingAssignment1[01;32mminceyp2@thur114-hp1[00m:[01;34m~/CSCI460F2025_W30541324_ProgrammingAssignment1[00m$ git commit -am "Reti[K[Kt[Ktrieved bank-full.csv file"
+[?2004l[main dda85c7] Retrieved bank-full.csv file
+ 2 files changed, 45212 insertions(+), 48 deletions(-)
+ create mode 100644 bank-full.csv
+[?2004h]0;minceyp2@thur114-hp1: ~/CSCI460F2025_W30541324_ProgrammingAssignment1[01;32mminceyp2@thur114-hp1[00m:[01;34m~/CSCI460F2025_W30541324_ProgrammingAssignment1[00m$ git push
+[?2004lUsername for 'https://github.com': Preston2024
+Password for 'https://Preston2024@github.com': 
+Enumerating objects: 6, done.
+Counting objects:  16% (1/6)Counting objects:  33% (2/6)Counting objects:  50% (3/6)Counting objects:  66% (4/6)Counting objects:  83% (5/6)Counting objects: 100% (6/6)Counting objects: 100% (6/6), done.
+Delta compression using up to 20 threads
+Compressing objects:  33% (1/3)Compressing objects:  66% (2/3)Compressing objects: 100% (3/3)Compressing objects: 100% (3/3), done.
+Writing objects:  25% (1/4)Writing objects:  50% (2/4)Writing objects:  75% (3/4)Writing objects: 100% (4/4)Writing objects: 100% (4/4), 502.50 KiB | 4.57 MiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/Preston2024/CSCI460F2025_W30541324_ProgrammingAssignment1.git
+   317a1b6..dda85c7  main -> main
+[?2004h]0;minceyp2@thur114-hp1: ~/CSCI460F2025_W30541324_ProgrammingAssignment1[01;32mminceyp2@thur114-hp1[00m:[01;34m~/CSCI460F2025_W30541324_ProgrammingAssignment1[00m$ exit
+[?2004lexit
+
+Script done on 2025-10-16 09:35:26-04:00 [COMMAND_EXIT_CODE="0"]
